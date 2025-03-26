@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #0c9cf0;
     text-align: center;
     padding: 20px;
   }
@@ -23,14 +23,14 @@ body {
     font-size: 16px;
     border: none;
     border-radius: 8px;
-    background-color: #4CAF50;
+    background-color: #cd9c0c;
     color: white;
     cursor: pointer;
     transition: background 0.3s;
   }
   
   .tarefas button:hover {
-    background-color: #45a049;
+    background-color: #b37906;
   }
   
   .log {
@@ -41,5 +41,9 @@ body {
     height: 120px;
     overflow-y: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .cartas{
+    width: 50%;
+    border: 0px;
   }
   
