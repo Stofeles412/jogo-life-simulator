@@ -36,7 +36,7 @@ body {
   }
   
   .tarefas button:hover {
-  transform: translate(1.1);
+ transform: scale(1.1);
   
   }
   
@@ -55,5 +55,7 @@ body {
   .cartas{
     width: 50%;
     border: 0px;
+    
   }
+  
   
