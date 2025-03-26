@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Simulador de Tarefas</h1>
+
+  <div class="status">
+    <p>💰 Pontos: <span id="pontos">0</span></p>
+    <p>⭐ XP: <span id="xp">0</span></p>
+    <p>🎯 Nível: <span id="nivel">1</span></p>
+  </div>
+
+  <div class="tarefas">
+    <button onclick="realizarTarefa('Lavar Louça', 10, 5)">Lavar Louça</button>
+    <button onclick="realizarTarefa('Estudar', 20, 10)">Estudar</button>
+    <button onclick="realizarTarefa('Trabalhar', 50, 25)">Trabalhar</button>
+  </div>
+
+  <div class="log" id="log"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
