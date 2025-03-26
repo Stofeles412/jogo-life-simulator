@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #0c9cf0;
     background-image: url(imagens/fundo-game.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     text-align: center;
     padding: 20px;
   }
@@ -11,11 +14,13 @@ body {
   }
   
   .status {
+    font-size: 1.5em;
     background: #ffffff38;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
   }
   
   .tarefas button {
@@ -31,11 +36,12 @@ body {
   }
   
   .tarefas button:hover {
-  transform: translate(1.1%);
+  transform: translate(1.1);
   
   }
   
   .log {
+    border-top: solid 5px  rgb(111, 75, 4) ;
     margin-top: 20px;
     padding: 10px;
     font-size: 1.5em;

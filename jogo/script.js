@@ -10,7 +10,7 @@ const logEl = document.getElementById('log');
 function realizarTarefa(tarefa, pontosGanhos, xpGanho) {
   pontos += pontosGanhos;
   xp += xpGanho;
-  log(`Você fez "${tarefa}" e ganhou ${pontosGanhos} pontos e ${xpGanho} XP.`);
+  log(`Você completou "${tarefa}" e ganhou ${pontosGanhos} pontos e ${xpGanho} XP.`);
 
   if (xp >= nivel * 100) {
     xp -= nivel * 100;
