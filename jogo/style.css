@@ -33,11 +33,12 @@ body {
     color: white;
     cursor: pointer;
     transition: background 0.3s;
+    transition: .6s;
   }
   
   .tarefas button:hover {
  transform: scale(1.1);
-  
+ transition: .5s;
   }
   
   .log {
